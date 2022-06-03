@@ -1,0 +1,43 @@
+main .container .box3 {
+  
+}
+main .container .box3 .tran-head{
+    display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main .container .box3 .tran-head .tran {
+  width: 32%;
+}
+
+main .container .box3 .tran-head .new-invoice {
+  width: 32%;
+}
+
+main .container .box3 .tran-head .new-invoice img {
+  display: block;
+  margin: auto;
+}
+
+main .container .box3 table{
+    width: 100%;
+    justify-content: center;
+    padding: 3%;
+    text-align: center;
+}
+
+main .container .box3 table .bg{
+    background-color: white;
+}
+
+main .container .box3 table tr td{
+    padding :1%
+} 
+
+@media screen and (max-width:450px){
+    main .container .box3 .tran-head{
+        display: block;
+    }
+}

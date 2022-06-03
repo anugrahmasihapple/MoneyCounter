@@ -1,0 +1,53 @@
+ main .container .profile-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 40px;
+ }
+
+ main .container .profile-nav .profile-content{
+     display: flex;
+     margin-left: 15px;
+     background-color: #fff;
+     padding: 15px;
+     border-radius: 10px;
+     gap: 20px;
+ }
+ 
+ main .container .box .profile{
+    width: 100%;
+}
+main .container .box .profile img{
+    display: block;
+    margin: auto;
+    padding:10px;
+}
+
+ main .container .profile-nav .profile-content .blue{
+     width: 50px;
+     height: 50px;
+     background-color: #2e4dd4 ;
+     border-radius: 10px;
+ }
+ 
+ @media screen and (max-width:450px){
+     main .container .profile-nav .profile-content .blue{
+         width: 30px;
+         height: 30px;
+     }
+     main .container .profile-nav .profile-content .name{
+         font-size: 10px;
+     }
+ }
+
+@media screen and (max-width: 1280px){
+     main aside .logo{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  main aside .logo img {
+    padding: 0;
+    width: 80px;
+  }
+}
